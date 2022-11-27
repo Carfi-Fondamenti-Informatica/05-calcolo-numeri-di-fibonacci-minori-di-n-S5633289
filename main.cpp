@@ -2,13 +2,11 @@
 using namespace std;
 
 int fibonacci(int a){
-    int n1=0,n2=1,n3;
-    cout<<"1"<<endl;
-    for(int i=2;i<=a;i++){
-        n3=n1+n2;
-        if(n3<=a){
+    int n1=0,n2=1,n3=1;
+
+    while(n3<=a){
         cout<<n3<<endl;
-        }
+        n3=n1+n2;
         n1=n2;
         n2=n3;
     }
