@@ -18,9 +18,6 @@ int fibonacci(int a){
 int main() {
     int n;
     cin>>n;
-    if(n>=2){
-        fibonacci(n);
-    }
-    else{ cout<<"errore";}
+    fibonacci(n);
     return 0;
 }
